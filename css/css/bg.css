@@ -1,0 +1,27 @@
+/*body{
+	background-image: url("../images/bg1.jpg")
+}*/
+
+body{
+	background: url("../images/lion.jpg")
+	no-repeat center center fixed;
+	background-size: cover;
+}
+
+div{
+	background-color: #27d9e7;
+}
+
+h1{
+	color: black;
+	text-align: center;
+	/*border: 3px solid red;*/
+
+	width: 400px;
+	padding: 20px;
+	margin: 200px auto;
+	font-family: 'Swanky and Moo Moo', cursive;
+	font-size: 3em;
+/*	margin: 0 auto;
+	margin-top: 300px;*/
+}
