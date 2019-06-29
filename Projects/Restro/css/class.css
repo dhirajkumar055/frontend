@@ -1,0 +1,22 @@
+
+
+div{
+	background: green;
+	height: 100px;
+}
+
+/*black and pink are classes*/
+.black{
+	background: black;
+	height: 100px;
+	color: white;
+}
+.pink{
+	background: hotpink;
+	height: 100px;
+}
+
+/*IDs*/
+#red{
+	background-color: red;
+}

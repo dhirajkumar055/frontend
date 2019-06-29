@@ -1,0 +1,33 @@
+ul{
+	list-style-type: none; /*removes bullets*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;/*some elements are flowing left and some right
+	css is breaking
+	*/
+	background-color: #333;
+}
+
+li{
+	float: left; /*list will stick to the left*/
+}
+
+li a{
+	display: block;
+	color: orange;
+	text-align: center;
+	padding: 15px 18px;
+	text-decoration: none;/*removes underline type of url*/
+}
+
+li a:hover{
+	background-color: darkred;
+}
+
+.righty{
+	float: right;
+}
+
+.active{
+	background-color: crimson;
+}
